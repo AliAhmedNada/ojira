@@ -8,7 +8,7 @@ ojira helps you quickly generate well-structured Jira task descriptions using yo
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/ojira/ggamcmddhgfibjhjlcopdmnfopfahngm">
-    <img src="https://img.shields.io/badge/Install_from-Chrome_Web_Store-blue?logo=google-chrome&logoColor=white" alt="Chrome Web Store" height="60px"/>
+    <img src="https://img.shields.io/badge/Install_from-Chrome_Web_Store-blue?logo=google-chrome&logoColor=white" alt="Chrome Web Store" height="30px"/>
   </a>
 </p>
 
