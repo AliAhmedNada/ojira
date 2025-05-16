@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icons/ojira.png" alt="ojira Logo" width="150"/>
+  <img src="images/ojira.png" alt="ojira Logo" width="150"/>
 </p>
 
 # ojira - AI Powered Jira Description Generator
@@ -28,12 +28,12 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 ## Demo Screenshots
 
 <p align="center">
-  <img src="create a new jira issue.png" alt="Creating a New Jira Issue" width="400"/>
+  <img src="images/create a new jira issue.png" alt="Creating a New Jira Issue" width="400"/>
   <br><em>Creating a new Jira issue with ojira</em>
 </p>
 
 <p align="center">
-  <img src="readimages.png" alt="ojira in Action" width="400"/>
+  <img src="images/readimages.png" alt="ojira in Action" width="400"/>
   <br><em>ojira reading and processing Jira ticket information</em>
 </p>
 
@@ -63,7 +63,7 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/ojira/ggamcmddhgfibjhjlcopdmnfopfahngm">
-    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Available in the Chrome Web Store" height="58px"/>
+    <img src="https://img.shields.io/badge/Install_from-Chrome_Web_Store-blue?logo=google-chrome&logoColor=white" alt="Chrome Web Store" height="60px"/>
   </a>
 </p>
 
@@ -82,22 +82,22 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
    - Verify the extension icon appears in Chrome toolbar
 
    <p align="center">
-     <img src="1.png" alt="Enable Developer Mode" width="700"/>
+     <img src="images/1.png" alt="Enable Developer Mode" width="400"/>
      <br><em>Step 1: Enable Developer Mode in Chrome Extensions</em>
    </p>
    
    <p align="center">
-     <img src="2.png" alt="Click Load Unpacked" width="700"/>
+     <img src="images/2.png" alt="Click Load Unpacked" width="400"/>
      <br><em>Step 2: Click the Load Unpacked button</em>
    </p>
    
    <p align="center">
-     <img src="3.png" alt="Select Extension Folder" width="700"/>
+     <img src="images/3.png" alt="Select Extension Folder" width="400"/>
      <br><em>Step 3: Select the ojira extension folder</em>
    </p>
    
    <p align="center">
-     <img src="4.png" alt="Extension Installed" width="700"/>
+     <img src="images/4.png" alt="Extension Installed" width="400"/>
      <br><em>Step 4: Verify the extension is installed</em>
    </p>
 
@@ -107,7 +107,7 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
    - Paste your PAT and save
 
    <p align="center">
-     <img src="configureOptions.gif" alt="Configuration Options" width="700"/>
+     <img src="images/configureOptions.gif" alt="Configuration Options" width="700"/>
      <br><em>Configuration of the ojira extension options</em>
    </p>
 
