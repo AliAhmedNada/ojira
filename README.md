@@ -9,6 +9,8 @@ ojira helps you quickly generate well-structured Jira task descriptions using yo
 ## Demo Video
 
 📺 [Watch the ojira Demo Video](https://www.youtube.com/watch?v=P4T8hPtvzCE&ab_channel=AN)
+[![Video Title](https://img.youtube.com/vi/P4T8hPtvzCE/0.jpg)](https://www.youtube.com/watch?v=P4T8hPtvzCE)
+
 
 ## Demo Screenshots
 
