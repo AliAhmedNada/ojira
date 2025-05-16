@@ -4,7 +4,13 @@
 
 # ojira - AI Powered Jira Description Generator
 
-ojira helps you quickly generate well-structured Jira task descriptions using your local Ollama AI models. Save time and improve your Jira tickets with AI-generated content based on existing issue details.
+ojira helps you quickly generate well-structured Jira task descriptions using your local Ollama AI models. Compatible with both cloud-based and private Jira instances, ojira lets you save time and improve your Jira tickets with AI-generated content based on existing issue details while keeping your data secure on your local network.
+
+<p align="center">
+  <img src="images/ojira.png" alt="ojira Logo" width="100"/>
+  <br>
+  <strong>🔒 Works with both Atlassian Cloud and Self-Hosted Jira 🔒</strong>
+</p>
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/ojira/ggamcmddhgfibjhjlcopdmnfopfahngm">
@@ -40,6 +46,7 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 ## Key Features
 
 ✅ Uses your local Ollama AI models to generate Jira descriptions  
+✅ Works with both cloud and private Jira instances
 ✅ Fetches context from active Jira pages  
 ✅ Allows customizable prompts  
 ✅ Seamlessly integrates with Jira  
@@ -56,8 +63,9 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 1. **Requirements:**
    - 🌐 Google Chrome browser
    - 🤖 [Ollama](https://ollama.com/) installed and running
-   - 🔄 Jira account with access to create/edit issues
+   - 🔄 Jira account with access to create/edit issues (cloud or private)
    - 🔑 Jira Personal Access Token (PAT)
+   - 🔒 For private instances: Your Jira base URL
 
 ## Installation & Configuration
 
@@ -101,15 +109,30 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
      <br><em>Step 4: Verify the extension is installed</em>
    </p>
 
-2. **Configure Jira PAT:**
+2. **Configure Jira PAT and URL:**
    - Generate a PAT from your Jira profile with write permissions
    - Right-click the ojira icon in Chrome and select "Options"
    - Paste your PAT and save
+   - For private Jira instances, enter your Jira base URL (e.g., `https://jira.your-company.com`)
 
    <p align="center">
      <img src="images/configureOptions.gif" alt="Configuration Options" width="700"/>
      <br><em>Configuration of the ojira extension options</em>
    </p>
+   
+   <div align="center">
+     <table>
+       <tr>
+         <td align="center"><b>Cloud Jira URL</b></td>
+         <td align="center"><b>Private Jira URL Example</b></td>
+       </tr>
+       <tr>
+         <td align="center">https://your-company.atlassian.net</td>
+         <td align="center">https://jira.your-company.com</td>
+       </tr>
+     </table>
+     <em>Examples of Jira URL configuration for different environments</em>
+   </div>
 
 3. **Setup Ollama:**
    - Start Ollama with CORS enabled:
@@ -152,6 +175,17 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 
 The extension automatically fetches issue details including summary, type, assignee, project name, and existing description to provide context to the AI.
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="images/readimages.png" alt="ojira in Action" width="300"/>
+        <br><em>Works identically on cloud and private Jira instances</em>
+      </td>
+    </tr>
+  </table>
+</p>
+
 ## Common Issues
 
 | Issue | Solution |
@@ -160,6 +194,7 @@ The extension automatically fetches issue details including summary, type, assig
 | 🔌 **Can't Connect to API** | Make sure Ollama is running (`http://localhost:11434`) |
 | 📦 **No Models Available** | Run `ollama pull llama3` or your preferred model |
 | 🔑 **PAT Not Working** | Ensure your Jira token has write permissions |
+| 🔒 **Private Jira Access** | Verify your Jira base URL is correctly set in options |
 
 ## License
 
