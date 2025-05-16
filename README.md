@@ -13,12 +13,12 @@ ojira helps you quickly generate well-structured Jira task descriptions using yo
 ## Demo Screenshots
 
 <p align="center">
-  <img src="create a new jira issue.png" alt="Creating a New Jira Issue" width="700"/>
+  <img src="create a new jira issue.png" alt="Creating a New Jira Issue" width="400"/>
   <br><em>Creating a new Jira issue with ojira</em>
 </p>
 
 <p align="center">
-  <img src="readimages.png" alt="ojira in Action" width="700"/>
+  <img src="readimages.png" alt="ojira in Action" width="400"/>
   <br><em>ojira reading and processing Jira ticket information</em>
 </p>
 
