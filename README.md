@@ -10,6 +10,18 @@ ojira helps you quickly generate well-structured Jira task descriptions using yo
 
 📺 [Watch the ojira Demo Video](https://www.youtube.com/watch?v=P4T8hPtvzCE&ab_channel=AN)
 
+## Demo Screenshots
+
+<p align="center">
+  <img src="create a new jira issue.png" alt="Creating a New Jira Issue" width="700"/>
+  <br><em>Creating a new Jira issue with ojira</em>
+</p>
+
+<p align="center">
+  <img src="readimages.png" alt="ojira in Action" width="700"/>
+  <br><em>ojira reading and processing Jira ticket information</em>
+</p>
+
 ## Key Features
 
 ✅ Uses your local Ollama AI models to generate Jira descriptions  
@@ -39,7 +51,10 @@ ojira helps you quickly generate well-structured Jira task descriptions using yo
    - Right-click the ojira icon in Chrome and select "Options"
    - Paste your PAT and save
 
-   ![Configuration Options](configureOptions.gif)
+   <p align="center">
+     <img src="configureOptions.gif" alt="Configuration Options" width="700"/>
+     <br><em>Configuration of the ojira extension options</em>
+   </p>
 
 3. **Setup Ollama:**
    - Start Ollama with CORS enabled:
