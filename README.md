@@ -55,6 +55,26 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
    - Click "Load unpacked" and select the extension folder
    - Verify the extension icon appears in Chrome toolbar
 
+   <p align="center">
+     <img src="1.png" alt="Enable Developer Mode" width="700"/>
+     <br><em>Step 1: Enable Developer Mode in Chrome Extensions</em>
+   </p>
+   
+   <p align="center">
+     <img src="2.png" alt="Click Load Unpacked" width="700"/>
+     <br><em>Step 2: Click the Load Unpacked button</em>
+   </p>
+   
+   <p align="center">
+     <img src="3.png" alt="Select Extension Folder" width="700"/>
+     <br><em>Step 3: Select the ojira extension folder</em>
+   </p>
+   
+   <p align="center">
+     <img src="4.png" alt="Extension Installed" width="700"/>
+     <br><em>Step 4: Verify the extension is installed</em>
+   </p>
+
 2. **Configure Jira PAT:**
    - Generate a PAT from your Jira profile with write permissions
    - Right-click the ojira icon in Chrome and select "Options"
