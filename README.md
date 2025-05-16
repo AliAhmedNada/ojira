@@ -6,6 +6,15 @@
 
 ojira helps you quickly generate well-structured Jira task descriptions using your local Ollama AI models. Save time and improve your Jira tickets with AI-generated content based on existing issue details.
 
+## 🎉 Celebrating Version 5.1.0!
+
+We're excited to announce version 5.1.0 of ojira with significant improvements:
+
+- **Enhanced User Interface**: Completely refreshed UI for a more intuitive experience
+- **Dynamic Issue Creation**: Generate issues and tasks dynamically based on the selected project
+- **Project-Specific Issue Types**: Automatically load appropriate issue types for each project
+- **Improved AI Generation**: Better context handling for more relevant descriptions
+
 ## 📺 Demo Video
 [![Video Title](https://img.youtube.com/vi/P4T8hPtvzCE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
