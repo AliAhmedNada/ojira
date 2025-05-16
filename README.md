@@ -89,6 +89,10 @@ The extension automatically fetches issue details including summary, type, assig
 - **No Models Available**: Run `ollama pull llama3` or your preferred model
 - **PAT Not Working**: Ensure your Jira token has write permissions
 
+## License
+
+This project is licensed under the MIT License with attribution requirements - see the [LICENSE](LICENSE) file for details.
+
 ## More Help
 
 For a complete walkthrough, watch our [demo video](https://www.youtube.com/watch?v=P4T8hPtvzCE&ab_channel=AN)
