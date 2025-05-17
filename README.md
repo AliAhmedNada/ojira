@@ -28,7 +28,7 @@ We're excited to announce version 5.1.0 of ojira with significant improvements:
 - **Improved AI Generation**: Better context handling for more relevant descriptions
 
 ## 📺 Demo Video
-[![Video Title](https://img.youtube.com/vi/P4T8hPtvzCE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Video Title](https://img.youtube.com/vi/P4T8hPtvzCE/0.jpg)](https://www.youtube.com/watch?v=P4T8hPtvzCE)
 
 
 ## Demo Screenshots
